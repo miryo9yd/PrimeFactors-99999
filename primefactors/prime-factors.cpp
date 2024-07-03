@@ -15,7 +15,7 @@ public :
 	
 
 			}
-			else if (number == 6) {
+			else if (number == 6|| number == 9) {
 				for (divisor == 2; number > 1; divisor++) {
 					while (number % divisor == 0) {
 						result.push_back(divisor);
@@ -26,10 +26,6 @@ public :
 				}
 
 
-			}
-			else if (number == 9) {
-				result.push_back(3);
-				result.push_back(3);
 			}
 			else {
 				result.push_back(number);
