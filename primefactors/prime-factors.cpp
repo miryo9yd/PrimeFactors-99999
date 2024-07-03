@@ -21,12 +21,12 @@ public :
 					result.push_back(divisor);
 					number /= divisor;
 				}
-
-				if (number % 3 == 0) {
-					result.push_back(3);
-					number /= 3;
+				divisor++;
+				if (number % divisor == 0) {
+					result.push_back(divisor);
+					number /= divisor;
 				}
-
+				divisor++;
 
 			}
 			else {
