@@ -16,17 +16,15 @@ public :
 
 			}
 			else if (number == 6) {
+				for (divisor == 2; number > 1; divisor++) {
+					while (number % divisor == 0) {
+						result.push_back(divisor);
+						number /= divisor;
+					}
 
-				if (number % divisor == 0) {
-					result.push_back(divisor);
-					number /= divisor;
+
 				}
-				divisor++;
-				if (number % divisor == 0) {
-					result.push_back(divisor);
-					number /= divisor;
-				}
-				divisor++;
+
 
 			}
 			else {
